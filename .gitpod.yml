@@ -3,21 +3,19 @@ image:
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 8081
+  - port: 3000
     onOpen: ignore
 
 vscode:
   extensions:
     - johnpapa.winteriscoming@1.4.3
     - vscode-icons-team.vscode-icons@11.1.0
-    - msjsdiag.debugger-for-chrome@4.12.6
     - esbenp.prettier-vscode@5.9.2
-    - naumovs.color-highlight@2.3.0
     - 42crunch.vscode-openapi@4.3.0
     - dsznajder.es7-react-js-snippets@3.1.1
     - wakatime.vscode-wakatime
     - asciidoctor.asciidoctor-vscode
-    
+
 tasks:
   - init: npm install
     command: npm install
